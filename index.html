@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="left-banner">
+            <img class="left-image" src="./images/image.png">
+            <div class="heading">
+                <h1>Deep Focus</h1>
+                <p>Enjoy the music and have fun</p>
+            </div>
+        </div>
+    </div>
+    <div class="main-section">
+        <div class="controls" onclick="playaudio()" id="play-pause"><img class="play-button" src="./images/play-button.svg"></div>
+        <audio id="song"></audio>
+        <table>
+            <thead>
+                <th class="song-Number">#</th>
+                <th class="song-name">Title</th>
+                <th class="song-artist">Artist</th>
+                <th class="song-duration">Duration</th>
+            </thead>
+            <tr id="song1" onclick="playAll(1)">
+                <td>1</td>
+                <td>Kaadhani Nuvvantunnadhi</td>
+                <td>Hemachandra Vedala,Sravana Bhargavi</td>
+                <td>05:45</td>
+            </tr>
+            <tr id="song2" onclick="playAll(2)">
+                <td>2</td>
+                <td>O Manasa</td>
+                <td>Shreya Ghoshal</td>
+                <td>04:54</td>
+            </tr>
+            <tr id="song3" onclick="playAll(3)">
+                <td>3</td>
+                <td>Na madhi</td>
+                <td>Anirudh Ravi chander</td>
+                <td>02:54</td>
+            </tr>
+            <tr id="song4" onclick="playAll(4)">
+                <td>4</td>
+                <td>Hoyna Hoyna</td>
+                <td>Anirudh Ravi chander</td>
+                <td>04:31</td>
+            </tr>
+            <tr id="song5" onclick="playAll(5)">
+                <td>5</td>
+                <td>Kumkumala</td>
+                <td>Pritam,Sid Sriram</td>
+                <td>04:38</td>
+            </tr>
+            <tr id="song6" onclick="playAll(6)">
+                <td>6</td>
+                <td>Kaanunna Kalyanam</td>
+                <td>Vishal Chandra Sekhar,Anurag Kulkarni,Sindhuri Vishal</td>
+                <td>03:15</td>
+            </tr>
+            <tr id="song7" onclick="playAll(7)">
+                <td>7</td>
+                <td>Gunzukunnaa</td>
+                <td>AR Rahman,ShakthiSree Gopalan</td>
+                <td>04:46</td>
+            </tr>
+            <tr id="song8" onclick="playAll(8)">
+                <td>8</td>
+                <td>Nene Kani Nenai Undaga</td>
+                <td>Yuvan Shankar Raja,Haricharan,DeepakBlue</td>
+                <td>05:04</td>
+            </tr>
+            <tr id="song9" onclick="playAll(9)">
+                <td>9</td>
+                <td>Aradhya</td>
+                <td>Hesham Abdul Wahab, Chinmayi</td>
+                <td>04:42</td>
+            </tr>
+            <tr id="song10" onclick="playAll(10)">
+                <td>10</td>
+                <td>Ayyayyo</td>
+                <td>Rahul Aipligunji</td>
+                <td>03:42</td>
+            </tr>
+            <tr id="song11" onclick="playAll(11)">
+                <td>11</td>
+                <td>o rendu prema</td>
+                <td>Vijay Bulganin</td>
+                <td>05:14</td>
+            </tr>
+            <tr id="song12" onclick="playAll(12)">
+                <td>12</td>
+                <td>chitti</td>
+                <td>Ram Miriyala,Radhan</td>
+                <td>03:04</td>
+            </tr>
+
+        </table>
+    </div>
+    <script src="script.js"></script>
+    <div class="container">
+    <footer class="py-3 my-4">
+        <hr>
+        <p class="text-center text-body-secondary"> By G.Aasmitha</p>
+    </footer>
+    </div>
+
+</body>
+</html>
